@@ -1,0 +1,15 @@
+name: template-lab
+
+topology:
+  nodes:
+    r1:
+      kind: linux
+      image: frrouting/frr:latest
+      mgmt-ipv4: 172.20.20.2/24
+    r2:
+      kind: linux
+      image: frrouting/frr:latest
+      mgmt-ipv4: 172.20.20.3/24
+
+  links:
+    - endpoints: ["r1:eth1", "r2:eth1"]
