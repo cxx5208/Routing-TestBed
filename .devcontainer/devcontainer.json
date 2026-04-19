@@ -1,0 +1,24 @@
+{
+  "name": "FRR Containerlab Labs – Free Browser Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "curl -sL https://containerlab.dev/setup | sudo -E bash -s 'all' && sudo apt update && sudo apt install -y curl git jq && echo '✅ Containerlab installed!'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  },
+  "forwardPorts": [9000],
+  "portsAttributes": {
+    "9000": {
+      "label": "Portainer Dashboard",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
