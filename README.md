@@ -1,9 +1,7 @@
-Containerlab Labs Collection – Networking Playground
+#Containerlab Labs Collection – Networking Playground
 
-**Your FREE, visual, extensible, forever-reproducible FRR learning lab**  
 Learn **FRR (Free Range Routing)**, BGP, OSPF, EVPN, spine-leaf data centers, and real-world networking **from absolute zero** — no prior knowledge needed.  
 
-Everything runs **100% free** inside **GitHub Codespaces** (a full Linux environment that opens in your browser).  
 You get a **real web dashboard** (Portainer GUI + interactive topology graphs) so you almost never need the terminal after initial setup.  
 Add unlimited new labs in <5 minutes.  
 Destroy and recreate the entire environment years later with one click — zero cost, zero data loss.  
@@ -12,10 +10,10 @@ Destroy and recreate the entire environment years later with one click — zero 
 - Every lab starts with plain-English explanations.  
 - Short 5–10 minute YouTube videos + screenshots you take yourself.  
 - Clickable web consoles, visual network maps, and one-click router access.  
-- This is **not** just theory — you will actually run real routers and see live routing tables.
+- This is **not** just theory - you will actually run real routers and see live routing tables.
 
 **Why this design is perfect for you**  
-- Uses **only existing, maintained projects** (official Containerlab examples + top community repos) — no building from scratch.  
+- Uses **only existing, maintained projects** (official Containerlab examples + top community repos) - no building from scratch.  
 - Infinitely extensible: add new official updates or community labs automatically.  
 - Visual frontend dashboard (Portainer) + interactive graph UI.  
 - GitHub Codespaces = free "cloud laptop" (no Docker on your real laptop, no DigitalOcean bills).  
@@ -100,7 +98,7 @@ git push origin main
 
 ---
 
-## 2. Your Web Dashboard & Visual UI (Frontend – Click, Not Type)
+## 2. Your Web Dashboard & Visual UI (Frontend - Click, Not Type)
 
 After Codespaces opens, run these **one-time** commands in the **Terminal** panel at the bottom (you only do this once):
 
@@ -136,13 +134,13 @@ sudo containerlab graph -t <path-to-lab>.clab.yml
 ```
 → A beautiful interactive map opens in your browser. Drag nodes, zoom, click routers to open consoles.
 
-**You now almost never need the terminal** — everything is point-and-click via Portainer + graph.
+**You now almost never need the terminal** - everything is point-and-click via Portainer + graph.
 
 ---
 
 ## 3. Deploy Your First Lab (Beginner BGP/OSPF – 10 minutes)
 
-### Learning Checkpoint – Read This First (Zero Knowledge)
+### Learning Checkpoint - Read This First (Zero Knowledge)
 **FRR** = Free software that turns Linux into a professional router (used by Amazon, NVIDIA, Cloudflare).  
 **BGP** = The "language" the Internet uses to exchange routes (like post offices telling each other "I can deliver to these addresses").  
 **OSPF** = Fast internal routing inside one company (like GPS inside a city).  
@@ -233,7 +231,7 @@ git push
 ./scripts/update-labs.sh
 ```
 
-**Create the `labs/template` folder once** (copy from any official lab and simplify — instructions inside `template/README.md`).
+**Create the `labs/template` folder once** (copy from any official lab and simplify - instructions inside `template/README.md`).
 
 ---
 
@@ -251,15 +249,15 @@ Every lab folder contains a `LEARNING.md` file with:
 3. Week 3: Spine-leaf BGP  
 4. Week 4+: Your custom labs + failure simulation  
 
-Take screenshots from Portainer/graph and add them to the README — this becomes your learning portfolio.
+Take screenshots from Portainer/graph and add them to the README - this becomes your learning portfolio.
 
 ---
 
-## 7. Re-create Everything in 2–3 Years (Zero Cost)
+## 7. Re-create Everything in 2-3 Years (Zero Cost)
 
 1. Go back to your GitHub repo.  
 2. Click **Code** → **Codespaces** → **Create codespace**.  
-3. Everything (labs, configs, dashboard) comes back exactly as you left it — because **all files live in Git**.
+3. Everything (labs, configs, dashboard) comes back exactly as you left it - because **all files live in Git**.
 
 No billing. GitHub gives generous free monthly hours for personal accounts.
 
@@ -272,7 +270,7 @@ Update the top of this README with:
 - Screenshots of Portainer dashboard + graph map + router console output  
 - One-sentence "Skills demonstrated" section  
 
-This single repo looks like a senior network engineer's living reference — perfect for job applications at Cloudflare, NVIDIA, Arista, Cisco, etc.
+This single repo looks like a senior network engineer's living reference - perfect for job applications at Cloudflare, NVIDIA, Arista, Cisco, etc.
 
 ---
 
@@ -327,4 +325,4 @@ Reply in this chat with **"Codespace ready"** and I will immediately give you:
 - First 5 complete labs (with LEARNING.md files)  
 - Pre-written Portainer tips and example screenshots
 
-Happy learning! You are now on the exact same path that professional network engineers use. 🚀
+Happy learning! 
