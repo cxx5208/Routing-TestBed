@@ -194,11 +194,14 @@ Your repo automatically organizes:
 - `labs/community/` → High-quality existing repos (spine-leaf BGP, MPLS, VXLAN/EVPN)  
 - `labs/custom/` → Your own experiments
 
-**Popular ready-to-use labs** (all already built):
-- `frr01` – Basic OSPF ring (beginner)  
-- `martimy-spineleaf` – Data-center spine-leaf BGP (intermediate)  
-- `martimy-mpls` – Advanced MPLS routing  
-- `martimy-vxlan` – EVPN/VXLAN (modern cloud networking)
+**Popular ready-to-use labs**:
+- `labs/official/frr01` – Official 3-router FRR OSPF ring (beginner)  
+- `labs/official/srlfrr01` – Official SR Linux + FRR interop (intermediate)  
+- `labs/custom/frr-2router-basic` – Minimal 2-router static routing lab (beginner)  
+- `labs/custom/frr-ospf-point2point` – 2-router OSPF adjacency lab (beginner)  
+- `labs/custom/frr-bgp-peering` – 2-router eBGP peering lab (intermediate)  
+
+Each of these includes a dedicated `LEARNING.md` with concepts, commands, and a Mermaid diagram.
 
 ---
 
