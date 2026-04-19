@@ -1,4 +1,4 @@
-# FRR + Containerlab Labs Collection – Complete Beginner-Friendly Networking Playground
+Containerlab Labs Collection – Networking Playground
 
 **Your FREE, visual, extensible, forever-reproducible FRR learning lab**  
 Learn **FRR (Free Range Routing)**, BGP, OSPF, EVPN, spine-leaf data centers, and real-world networking **from absolute zero** — no prior knowledge needed.  
